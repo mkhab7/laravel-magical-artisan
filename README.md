@@ -22,7 +22,7 @@ php artisan magical:make-model Product Category Comment Order
 
 ### Using options
 
-#### To set the option, you can use all the options that are used to build a model. Such as -a,-m,-f and the rest
+To set the option, you can use all the options that are used to build a model. Such as -a,-m,-f and the rest
 
 ```bash
 php artisan magical:make-model Product Category Comment Order -m -f
