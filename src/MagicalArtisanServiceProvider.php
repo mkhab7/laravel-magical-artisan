@@ -3,7 +3,7 @@
 namespace Mkhab7\MagicalArtisan;
 
 use Illuminate\Support\ServiceProvider;
-use Mkhab7\MagicalArtisan\Console\Commands\MagicalMakeModelCommand;
+use Mkhab7\MagicalArtisan\Console\Commands\MagicalModelMakeCommand;
 
 class MagicalArtisanServiceProvider extends ServiceProvider
 {
@@ -11,7 +11,7 @@ class MagicalArtisanServiceProvider extends ServiceProvider
     {
         $this->app->runningInConsole() &&
         $this->commands([
-            MagicalMakeModelCommand::class,
+            MagicalModelMakeCommand::class,
 
         ]);
     }

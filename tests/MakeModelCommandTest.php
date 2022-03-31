@@ -1,11 +1,11 @@
 <?php
 
-use Mkhab7\MagicalArtisan\Console\Commands\MagicalMakeModelCommand;
+use Mkhab7\MagicalArtisan\Console\Commands\MagicalModelMakeCommand;
 
 test('example', function () {
 /** @var \Mkhab7\MagicalArtisan\Tests\TestCase $this */
     $this->artisan(
-        MagicalMakeModelCommand::class,['name'=>'User Model -a -m']
+        MagicalModelMakeCommand::class,['name'=>'User Model -a -m']
     )->assertSuccessful()
         ->expectsOutput('created');
 });
