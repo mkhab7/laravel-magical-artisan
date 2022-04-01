@@ -4,7 +4,7 @@ A package for easier use of laravel artisan
 
 ## Introduction
 
-### Using this package, you can create multiple models with one command
+Using this package, you can create multiple models with one command
 
 ## Instalation 
 
