@@ -14,7 +14,7 @@ composer require mkhab7/laravel-magical-artisan
 
 ## Examples 
 
-### Making multiple model on one command
+### Making multiple models on one command
 
 ```bash
 php artisan magical:make-model Product Category Comment Order
