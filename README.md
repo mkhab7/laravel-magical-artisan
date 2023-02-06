@@ -9,7 +9,7 @@ Using this package, you can create multiple models with one command
 ## Instalation 
 
 ```bash
-composer require mkhab7/laravel-magical-artisan
+composer require mkhab7/laravel-magical-artisan --dev
 ```
 
 ## Examples 
